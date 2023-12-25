@@ -33,6 +33,8 @@ create index user_id_i on measurments_tbl (user_id);
 
 4)Use Postman or other api testing system to test the application.
 
+Swagger discribes the api http://localhost:8080//swagger-ui.html
+
 For the submit request (POST) use : http://localhost:8080/api/submit and post body for example
 {
    "id":1,
