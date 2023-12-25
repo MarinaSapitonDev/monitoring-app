@@ -35,8 +35,8 @@ create index user_id_i on measurments_tbl (user_id);
 
 For the submit request (POST) use : http://localhost:8080/api/submit and post body for example
 {
-   "id":3,
-   "userId" : 2,
+   "id":1,
+   "userId" : 1,
    "gas" : 3,
    "coldWater" : 125,
    "hotWater" : 300
