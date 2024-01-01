@@ -8,6 +8,7 @@ server.dbname.0 = testdb
 Run the following commands in cmd: 
 (version 2.6.1 compatable with java 17)
 cd C:\hsqldb-2.6.1\hsqldb 
+
 java -classpath lib/hsqldb.jar org.hsqldb.server.Server
 
 java -classpath lib/hsqldb.jar org.hsqldb.server.Server --database.0 file:hsqldb/demodb --dbname.0 testdb
